@@ -1,4 +1,4 @@
-# 学习笔记
+# 个人随笔
 
 [前端学习笔记](https://github.com/hetianqi/studyNotes/tree/master/front-end)
 
