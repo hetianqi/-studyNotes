@@ -177,7 +177,3 @@ jqLite(document).ready(function() {
 再利用 compile 函数编译整个页面文档，识别出 directive，按照优先级排序，执行他们的 compilie 函数，最后返回 link function 的结合，通过 scope 与模板连接起来，形成一个即时，双向绑定。
 
 至此，AngularJS 的执行过程也就告一段落了。
-
-# 参考资料
-
-*	[angularjs源码分析之：angularjs执行流程](http://www.cnblogs.com/wuya16/p/3769032.html)
