@@ -67,8 +67,8 @@ jqLite(document).ready(function() {
     ```JavaScript
 	var moduleInstance = {
 		// Private state
-		\_invokeQueue: invokeQueue,
-		\_runBlocks: runBlocks,
+		_invokeQueue: invokeQueue,
+		_runBlocks: runBlocks,
 		requires: requires,
 		name: name,
 		provider: invokeLater('$provide', 'provider'),
