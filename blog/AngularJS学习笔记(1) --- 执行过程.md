@@ -1,7 +1,7 @@
 ---
 title: AngularJS学习笔记(1) --- 执行过程
 date: 2016/12/14 10:41:23
-tags: AngularJS
+tags: AngularJS, JavaScript
 ---
 
 # 前言
@@ -38,7 +38,7 @@ app.config([
 
 乍一看都不知道错在哪里，经过分析才知道，module.config 方法是在 on module loading，即模块加载过程中执行的，此时 $http 和 $q 等服务都还没有创建成功，不能当做依赖项注入到 module.config 方法中。
 
-<!--- more --->
+<!-- more -->
 
 回到主题，AngularJS 框架的执行过程大致如下所示：
 
